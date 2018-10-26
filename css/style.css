@@ -1,0 +1,291 @@
+/*CSS document*/
+
+/*Insert global rules here - rules that apply for all pages on your site and all device sizes. This could be text color, font type, font-sizes, margin on elements */
+
+/*COMMENTS WITH CAPITAL LETTERS ARE EASY TO SPOT, SO USE THEM FOR HEADINGS FOR OVERVIEW. IT IS A GOOD IDEA TO HAVE A HEADING FOR YOUR HEADER, NAVIGATION, MAIN AND FOOTER. SEE EXAMPLE BELOW*/
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+
+body > header {}
+
+
+
+
+
+h1 {
+
+	font-family: quicksand;
+	font-size: 30px;
+
+}
+
+
+/*Main*/
+
+/* example to be deleted*/
+p {
+	font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+
+.logo {
+
+	width: 70%;
+	padding-left: 0px;
+
+
+}
+
+
+nav ul {
+
+	list-style-type: none;
+
+
+}
+
+
+
+nav li {
+
+	display: inline;
+
+
+}
+
+nav ul a {
+
+	text-decoration: none;
+	color: black;
+
+
+}
+
+/* Detter mit forsøg på en hover til min navigationsbar
+nav ul a a:hover {
+	
+	color: aquamarine;
+	
+}
+
+.active {
+    color: aqua;
+}
+*/
+
+
+/*@media for alle mine billeder - responsiv for Ipad*/
+@media all and (min-width: 650px) {
+
+	.flex-container {
+		width: 100%;
+		min-height: 100px;
+		display: flex;
+
+	}
+
+	.flex-container > div > img {
+		font-size: 30px;
+		width: 100%;
+		justify-content: space-around;
+
+	}
+
+}
+
+
+
+.flex-container > ul {
+	width: 100%;
+	min-height: 100px;
+	display: flex;
+	justify-content: space-between;
+	line-height: 100px;
+
+}
+
+.flex-container > ul > li {
+	font-size: 20px;
+	width: 150px;
+
+	font-family: sans-serif;
+
+	/*float: left;*/
+
+}
+/* navigations bar hover + farve når du trykker */
+.tips {
+	border-width: thin;
+	border: 2px solid lavender;
+
+}
+
+.gode {
+	border-width: thin;
+	border: 2px solid lavender;
+}
+
+.artikel {
+	border-width: thin;
+	border: 2px solid lavender;
+	
+}
+
+a:hover {
+	
+	color:lightgray;
+	
+}
+
+/* navigations bar hover + farve når du trykker */
+
+
+.readers {
+
+	font-size: 30px;
+	font-family: sans-serif;
+	margin: auto;
+
+}
+
+
+
+.search {
+
+	width: 25%;
+	padding-left: 70px;
+
+}
+
+
+.artikler {
+
+	margin: 15px;
+
+}
+
+
+.baggrund {
+
+	width: 100%;
+	height: 30%;
+
+}
+
+.baggrunden {
+
+	opacity: 0.3;
+	width: 100%;
+	position: absolute;
+
+}
+
+.baggrundene {
+	opacity: 0.3;
+	width: 100%;
+	position: absolute;
+
+}
+
+
+.medier {
+
+	width: 35%;
+
+}
+/* dette er min styling til siden med gode værker for billederne*/
+.imgWrap > img {
+	display: flex;
+	justify-content: space-around;
+	width: 200px;
+	display: inline-block;
+
+}
+
+
+.imgwrapper > img {
+	display: flex;
+	justify-content: space-around;
+	width: 200px;
+	display: inline-block;
+
+}
+
+.metoder > img {
+
+	display: flex;
+	justify-content: inline-block;
+	width: 500px;
+	display: inline-block;
+	position: relative;
+	margin-left: 80px;
+	margin-left: 70px;
+}
+
+/* dette er min styling til siden med gode værker for billederne*/
+
+/* Sociale medier logoer - forside */
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 150px;
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 90px;
+
+}
+  
+footer section {
+	
+	display: flex;
+	justify-content: space-around;
+	width: 20%;
+	height: 20%;
+	
+		
+}
+
+footer section img {
+	
+	width: 10%;
+	height: auto;
+	
+}
+/* Sociale medier logoer - forside */
+
+article {
+
+	padding: 20px;
+
+}
+
+
+
+/*@media all and (min-width: 1024px) {
+    /*HEADER*/
+header {
+	flex-direction: row;
+
+}
+
+
+}
+
+*/ @media screen and (min-width: 480px) {
+	#leftsidebar {
+		width: 200px;
+		float: left;
+	}
+
+	#main {
+		margin-left: 216px;
+	}
+}
